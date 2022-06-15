@@ -14,6 +14,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //That will move the player
-        transform.Translate(0, 0, 1);
+        transform.Translate(Vector3.forward * Time.deltaTime * 20);
     }
 }
